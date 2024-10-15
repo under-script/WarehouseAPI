@@ -1,0 +1,11 @@
+# Sorted by alphabet letters
+django
+django-cors-headers
+django-extensions
+django-jazzmin
+django-redis
+djangorestframework
+djangorestframework-simplejwt
+drf-spectacular
+drf-spectacular-sidecar
+icecream
