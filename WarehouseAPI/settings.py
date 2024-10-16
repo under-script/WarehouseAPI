@@ -38,8 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'api.apps.ApiConfig'
+    'api.apps.ApiConfig',
+    'rest_framework',
+    'drf_messages',
 ]
+
+MESSAGE_STORAGE = "drf_messages.storage.DBStorage"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
